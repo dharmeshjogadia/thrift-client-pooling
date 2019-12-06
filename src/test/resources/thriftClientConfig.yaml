@@ -1,0 +1,7 @@
+!!com.github.thrift.client.ThriftClientConfiguration
+baseUrl: "http://localhost:8080"
+services:
+  TestService:
+    poolSize: 5
+    connectionExpireInMills: 1000
+    connectionFetchTimeoutInMills: 1000
